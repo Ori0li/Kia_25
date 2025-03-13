@@ -1,8 +1,11 @@
 import { useNavigate } from "react-router";
-import { STATUS_BG_COLORS } from "../../VehicleStatusCard/styles/statusColor";
+import {
+  STATUS_BG_COLORS,
+  STATUS_TEXT_COLORS,
+} from "../../VehicleStatusCard/styles/statusColor";
 import { deatilStatusIdProps } from "../../VehicleStatusCard/types/vehicleStatusCardType";
 
-const DeatilStatusId = ({ carStatus, saleId }: deatilStatusIdProps) => {
+const DetailStatusId = ({ carStatus, saleId }: deatilStatusIdProps) => {
   const navi = useNavigate();
   const gotoBack = () => {
     navi("/");
@@ -17,11 +20,11 @@ const DeatilStatusId = ({ carStatus, saleId }: deatilStatusIdProps) => {
       }}
     >
       <div onClick={gotoBack}>뒤로</div>
-      <span>{carStatus}</span>
+      <span style={{ color: STATUS_TEXT_COLORS[carStatus] }}>{carStatus}</span>
       <span>인증 검수</span>
       <span>매입 ID : {saleId}</span>
     </div>
   );
 };
 
-export default DeatilStatusId;
+export default DetailStatusId;

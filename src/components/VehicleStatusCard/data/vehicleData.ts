@@ -14,7 +14,7 @@ export const vehicleData: VehicleStatusCardProps[] = [
     distance: "347.567",
     modelCode: "MQJJSADG4A5C",
     imgSrc:
-      "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/represent/krnq220/sportage_q_c7a.png",
+      "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/represent/krsg203/niro-ev_q_swp.png",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ export const vehicleData: VehicleStatusCardProps[] = [
     distance: "347.567",
     modelCode: "MQJJSADG4A5C",
     imgSrc:
-      "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/represent/krnq220/sportage_q_c7a.png",
+      "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/represent/krmq206/sorento_q_bn4.png",
   },
   {
     id: 8,
@@ -44,6 +44,6 @@ export const vehicleData: VehicleStatusCardProps[] = [
     distance: "347.567",
     modelCode: "MQJJSADG4A5C",
     imgSrc:
-      "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/represent/krnq220/sportage_q_c7a.png",
+      "https://www.kia.com/content/dam/kwp/kr/ko/vehicles/represent/krkp214/carnival_q_isg.png",
   },
 ];

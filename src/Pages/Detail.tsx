@@ -1,9 +1,9 @@
 import { useParams } from "react-router";
 import { vehicleData } from "../components/VehicleStatusCard/data/vehicleData";
-import DeatilStatusId from "../components/Detail/subcomponets/DeatilStatusId";
 import { VehicleStatusCardProps } from "../components/VehicleStatusCard/types/vehicleStatusCardType";
 import DetailImg from "../components/Detail/subcomponets/DetailImg";
 import DetailInfo from "../components/Detail/subcomponets/DetailInfo";
+import DetailStatusId from "../components/Detail/subcomponets/DetailStatusId";
 
 const Detail = () => {
   const { id } = useParams();
@@ -16,7 +16,7 @@ const Detail = () => {
 
   return (
     <>
-      <DeatilStatusId
+      <DetailStatusId
         carStatus={filterData.carStatus}
         saleId={filterData.saleId}
       />
